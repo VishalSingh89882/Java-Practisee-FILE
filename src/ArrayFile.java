@@ -15,7 +15,17 @@ public class ArrayFile {
 //        for (int i=0; i<arr.length; i++) {
 //            System.out.print(arr[i] + "  ");
 //        }
+    int arr1[] = new int[] {1,2,3,4,5};
+      int arr2[] = new int[] {101,102,103,104,105};
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr1));
+        displayarray(arr2);
     }
-}
+
+    public static void displayarray(int[] arr3)
+    {
+        System.out.println(Arrays.toString(arr3));
+        }
+
+    }
+
