@@ -17,4 +17,7 @@ public class A {
         privateVariableInA = 1000;
         protectedVariableInA = 100;
     }
+
 }
+
+
